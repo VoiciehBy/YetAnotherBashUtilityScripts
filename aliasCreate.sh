@@ -1,7 +1,7 @@
 #!/bin/bash
 command='#'
 command1=`date`
-command3="$command$command1"
+command2="$command$command1"
 
 function copy(){
 local cur_dir=`pwd`
@@ -30,6 +30,6 @@ restoreBackup
 echo .bashrc file restored successfull.
 else
 mkBackup
-echo $command3 >> $HOME/.bashrc
+echo $command2 >> $HOME/.bashrc
 echo "alias" $1='"'$2'"' >> $HOME/.bashrc
 fi
