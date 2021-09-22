@@ -3,7 +3,7 @@ sudo apt update
 sudo snap install caprine
 sudo snap install pycharm-community --classic
 sudo snap install notepad-plus-plus
-sudo snao install android-studio --classic
+sudo snap install android-studio --classic
 sudo snap install eclipse --classic
 sudo snap install intellij-idea-community --classic
 sudo snap install clion --classic
