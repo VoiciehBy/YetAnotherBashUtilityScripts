@@ -18,3 +18,5 @@ sudo snap install audacity
 sudo snap install spotify
 sudo snap install snap-store
 sudo snap install discord
+sudo snap install pinta
+sudo snap install scrcpy
