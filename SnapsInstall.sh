@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt update
 sudo snap install caprine
-sudo snap install pycharm-community --classic
+sudo snap install [pycharm-professional|pycharm-community] --classic
 sudo snap install notepad-plus-plus
 sudo snap install android-studio --classic
 sudo snap install eclipse --classic
