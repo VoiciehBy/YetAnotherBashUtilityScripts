@@ -20,3 +20,4 @@ sudo snap install snap-store
 sudo snap install discord
 sudo snap install pinta
 sudo snap install scrcpy
+sudo snap install p7zip-desktop
