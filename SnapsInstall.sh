@@ -1,7 +1,12 @@
 #!/bin/bash
+sudo rm  /etc/apt/preferences.d/nosnap.pref
 sudo apt update
+sudo apt install snapd -y
+sudo systemctl start snapd.service
+sudo systemctl enable snapd.service
 sudo snap install caprine
-sudo snap install [pycharm-professional|pycharm-community] --classic
+sudo snap install pycharm-community --classic
+sudo snap install pycharm-professional --classic
 sudo snap install notepad-plus-plus
 sudo snap install android-studio --classic
 sudo snap install eclipse --classic
